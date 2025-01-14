@@ -6,22 +6,21 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ProductServiceApi": {
+    "IdentityServer": {
       "commandName": "Project",
-      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": "true",
-      "applicationUrl": "https://localhost:5001;"
+      "applicationUrl": "https://localhost:5005"
     }
   },
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:15491",
-      "sslPort": 44322
+      "applicationUrl": "http://localhost:7032",
+      "sslPort": 44332
     }
   }
 }

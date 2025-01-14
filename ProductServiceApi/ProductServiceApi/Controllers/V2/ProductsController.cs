@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductApi.Service;
 using ProductServiceApi.Model;
@@ -14,6 +15,7 @@ namespace ProductServiceApi.Controllers.V2
     [ApiVersion("2.0")]
     [Route("api/v{version:apiVersion}/products")]
     [ApiController]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;

@@ -1,0 +1,8 @@
+# .gitignore
+bin/
+obj/
+.vscode/
+.idea/
+*.user
+*.suo
+appsettings.json  # (or appsettings.Development.json)

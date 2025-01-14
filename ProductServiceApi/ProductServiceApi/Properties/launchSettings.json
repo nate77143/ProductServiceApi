@@ -1,14 +1,7 @@
 {
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
     "ProductServiceApi": {
       "commandName": "Project",
-      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

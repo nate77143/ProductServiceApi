@@ -1,11 +1,5 @@
 {
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
     "IdentityServer": {
       "commandName": "Project",
       "environmentVariables": {

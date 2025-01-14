@@ -21,7 +21,7 @@ namespace ProductApi.Service
         public async Task<List<Product>> GetPaginatedProducts(int pageNumber, int pageSize)
         {
             if (pageNumber < 1) pageNumber = 1;
-            if (pageSize < 1) pageSize = 10;  // Set default pageSize if it's 0
+            if (pageSize < 1) pageSize = 3;  // Set default pageSize if it's 0
 
             // Skip records for previous pages, and take only the current page's size of records
             return await _context.Products

@@ -25,7 +25,7 @@ namespace ProductServiceApi.Controllers.V1
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts(
             [FromQuery] int pageNumber = 1,
-            [FromQuery] int pageSize = 10)
+            [FromQuery] int pageSize = 3)
         {
             var products = await _productService.GetPaginatedProducts(pageNumber, pageSize);
             return Ok(products);

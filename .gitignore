@@ -5,3 +5,6 @@ ProductServiceApi/.vs/ProductServiceApi/FileContentIndex/read.lock
 ProductServiceApi/.vs/ProductServiceApi/v17/.futdcache.v2
 ProductServiceApi/.vs/ProjectEvaluation/productserviceapi.metadata.v5.2
 ProductServiceApi/.vs/ProjectEvaluation/productserviceapi.projects.v5.2
+*.vsidx
+*.jwk
+*.json

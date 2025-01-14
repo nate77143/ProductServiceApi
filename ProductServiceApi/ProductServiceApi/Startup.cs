@@ -62,7 +62,13 @@ namespace ProductServiceApi
             {
                 app.UseDeveloperExceptionPage();
             }
-            
+
+            using (var scope = app.ApplicationServices.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<ProductContext>();
+                dbContext.Database.Migrate();
+            }
+
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();

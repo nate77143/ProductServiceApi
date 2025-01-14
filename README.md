@@ -1,15 +1,15 @@
 
--Configure database connection string
--Auto Migration applied
+-Configure database connection string<br>
+-Auto Migration applied<br>
 
-v1 enpoint - Accessible without authentication
-v2 enpoint - Requires authentication to access
+v1 enpoint - Accessible without authentication<br>
+v2 enpoint - Requires authentication to access<br>
 
-Implemented IdentityServer sample authentication used to secure endpoint for this project.
-This will requires to run both project IdentityServer and ProductServiceWebAPI at the same time.
+Implemented IdentityServer sample authentication used to secure v2 endpoint.<br>
+requires to run both project IdentityServer and ProductServiceWebAPI at the same time.<br>
 
- Get Token Url:   https://localhost:5005/connect/token
- grant_type:      client_credentials
- scope:           productApi
- client_id:       productClient
- client_secret:   secret
+ Get Token Url:&nbsp;&nbsp;&nbsp;&nbsp; https://localhost:5005/connect/token<br>
+ grant_type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client_credentials<br>
+ scope:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; productApi<br>
+ client_id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;productClient<br>
+ client_secret:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; secret<br>
